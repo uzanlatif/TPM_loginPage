@@ -83,7 +83,7 @@ class LogoImageAssets extends StatelessWidget {
   Widget build(BuildContext context) {
     AssetImage assetImage = const AssetImage('assets/images/love.png');
 
-    Image image = Image(image: assetImage, height: 80, width: 80);
+    Image image = Image(image: assetImage, height: 100, width: 100);
     return Container(
       child: image,
     );
